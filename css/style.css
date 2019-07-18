@@ -1,6 +1,9 @@
 html, body{
     height:100%;
 }
+p{
+    font-size:17px;
+}
 .cover{
     background:#222 url('../img/money.jpg') center center no-repeat;
     background-size:cover;
@@ -105,10 +108,30 @@ html, body{
         height:2200px;
         padding-top:0px;
     }
+    .card-img{
+        height:200px;   
+    }
     .contactons input{
         margin-top:10px;
     }
-    .card-img{
-        height:220px;
+}
+@media(max-height:670px){
+    p{
+        font-size:14px;
+    }
+    h1{
+        font-size:2.2rem;
+    }
+    .card-img-top{
+        height:180px;
+    }
+    .services{
+        height:140%;
+    }
+    .fscreen{
+        height:170%;
+    }
+    .contactons{
+        height:110%;
     }
 }
